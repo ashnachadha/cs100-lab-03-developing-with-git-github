@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/csmajs/achad006/lab-03-developing-with-git-github-whatyoumacallits/c-count.h
+iostream
+-
+
+/home/csmajs/achad006/lab-03-developing-with-git-github-whatyoumacallits/c-echo.h
+iostream
+-
+
+/home/csmajs/achad006/lab-03-developing-with-git-github-whatyoumacallits/main.cpp
+c-echo.h
+/home/csmajs/achad006/lab-03-developing-with-git-github-whatyoumacallits/c-echo.h
+c-count.h
+/home/csmajs/achad006/lab-03-developing-with-git-github-whatyoumacallits/c-count.h
+
